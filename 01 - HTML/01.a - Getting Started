@@ -1,0 +1,70 @@
+# HTML
+aka, **Hypertext Markup Language**, tells the browser how it will structure a site.
+
+```html
+<p> HTML consists a series of elements. </p>
+```
+
+### Anatomy of HTML
+
+```html
+<!-- HTML elements consists of 3 main parts -->
+    <p> This is the content </p>
+<!-- |             |          |
+     |             |          |
+     Opening tag   |          |
+                The content   |
+                            Closing tag 
+-->
+```
+- **Opening tag** - the name of element wrapped in angle brackets.
+- **Content** - The content of the element
+- **Closing tag** - Same with the opening tag, but it includes a foward slash before the element name and marks the end of the element.
+
+### Nesting of Elements 
+```html
+<!-- HTML Elements can be placed inside of an element, and this is called element nesting. -->
+<p><strong>As you can see, the strong element is inside of the element p</strong><p>
+<!-- The paragraph above will look like in a bold text because of the strong element -->
+
+<!-- This a bad way of nesting of elements. -->
+<p><i>The closing tag of italic element should be inside of the p element</p></i>
+<!-- The browser does the guessing of your misformatted element, and it may look like the one you will expect to see.-->
+```
+
+### Empty Elements 
+```html
+<!- Not all tags has content, like img tag, it only has opening and closing tag -->
+<img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png">
+```
+
+### Attributes
+```html
+<!-- Elements can have an attributes too. -->
+<p class="explanation-tile"> This paragraph element has an attribute </p>
+```
+An attribute should have:
+- A space between an element name
+- attribute name, followed by an equal sign
+- attribute value, wrapped in quote marks
+
+### Active Learning, anchor element.
+`<a>` stands for **Anchor**. Anchor makes an text into an hyperlink. The anchors can take attributes, the following are examples:
+- `href` - specifies the web address of link
+- `title` - Shows the description of the hyperlink when hovered.
+- `target` - specifies browsing context used to display link. 
+
+```html
+<p>This is a demonstration of an anchor, you can read about the article <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">here</a>.</p>
+<!-- the `target="_blank"` context makes the link open in new tab. -->
+```
+
+
+
+
+
+
+
+
+
+
