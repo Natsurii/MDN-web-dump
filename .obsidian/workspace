@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "0c0b59332f01f2ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "8996b33f686dd90a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01 - HTML/01.f - Website Semantics.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "034e2014a51813b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2def0c076593aeaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c5971686aee2f4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9957de3850b45442",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ed570f9162efa24",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbee95e43b5788c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec39a34647916c8a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - HTML/01.f - Website Semantics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8996b33f686dd90a",
+  "lastOpenFiles": [
+    "01 - HTML/01.f - Website Semantics.md",
+    "README.md",
+    "Untitled.md",
+    "01 - HTML/01.e - Advance Text Formatting.md",
+    "01 - HTML/01.d - Hyperlinks.md"
+  ]
+}
